@@ -1,0 +1,166 @@
+// This is where you put the contents of the main stylesheet for the user's project.
+// It should import your sass stylesheets and demonstrate how to use them.
+
+@import "sass-flexi";
+
+//=============================
+// flexi-grid framework
+//=============================
+
+// assign the box-sizing global
+* {
+	@include box-sizing(border-box);
+}
+
+// create container for the grid system
+.container{
+	@include container(30);
+}
+
+// create the wrapper for the grid system
+.wrapper{
+	@include row(30);
+}
+
+// create clearfix 
+.clear{
+	@extend %clear;
+}
+
+// generate the columns for the grid systen
+@include columns(col,12);
+
+
+// Generate the viewports
+//-----------------------
+
+// 1- tablet viewport (width 768px)
+@media screen and (min-width:768px){
+	%float{
+		float: left;
+	}
+	@include column-width(col,12);
+	@include offset(offset,12);
+	@include push(push,12);
+	@include pull(pull,12);
+}
+@include direction(col,12);
+
+
+// 2- desktop viewport (width 992px)
+@media screen and (min-width:992px){
+	%float{
+		float: left;
+	}
+	@include column-width(col,12);
+	@include offset(offset,12);
+	@include push(push,12);
+	@include pull(pull,12);
+}
+@include direction(col,12);
+
+
+// 3- large viewport (width 1200px)
+@media screen and (min-width:1200px){
+	%float{
+		float: left;
+	}
+	@include column-width(col,12);
+	@include offset(offset,12);
+	@include push(push,12);
+	@include pull(pull,12);
+}
+@include direction(col,12);
+//===== end flexi-grid framework =======
+
+//======================================
+// flexi-typography framework
+//======================================
+
+html{
+    @include html(16,10);
+}
+
+// body and headline font-size and font-family
+@include body-headline(16,24,10);
+
+//  link elements
+a{
+    @include link(#C02942); // define the color for the link elements, you can change the color number is you wish
+}
+
+// blockqoute elements
+blockquote{
+    @include blockquote(16,#C02942);
+    @extend %margin;
+}
+
+// define pre,code, and kbd elements
+pre{
+    @include pre(#031634,#f5f5f5);
+    @include raduis(4);
+    @extend %margin;
+    code{
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    white-space: pre-wrap;
+    background-color: transparent;
+    @include raduis(0);
+    }
+}
+
+code{
+    @include code(blue);
+    @include raduis(4);
+}
+
+kbd{
+    @include kbd(#fff,#033649);
+    @include raduis(4);
+}
+
+// define the fixed font
+pre, code{
+    font-family : Consolas, Courier New, monospace;
+    line-height : inherit;
+}
+
+// define italic & bold elements
+em, i, blockquote{
+    font-style : italic;
+}
+b, strong{
+    color : inherit;
+    font-weight: bold;
+}
+
+// define the ol, ul list
+ul{list-style-type: disc; @extend %margin;}
+ol{list-style-type: decimal;@extend %margin;}
+
+// others defines
+abbr[title], abbr[data-original-title]{
+    cursor: help;
+    border-bottom: 1px dotted;
+}
+abbr.initialism {
+    font-size: 90%;
+    text-transform: uppercase;
+}
+small, .small{font-size: 80%;}
+
+
+
+@media screen and (max-width:600px){
+      @include mobile(13,21,10);
+  }
+
+
+// modifers
+.text-left{text-align: left;}
+.text-right{text-align: right;}
+.text-center{text-align: center;}
+.text-justify{text-align: justify;}
+//===== end flexi-typography framework =======
+

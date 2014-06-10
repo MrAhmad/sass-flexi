@@ -1,0 +1,274 @@
+//===========================
+// created by : MrAhmad
+// date : 10 June 2014
+// website : http://sass-flexi.com/
+// version : 0.1.alpha.1
+//============================
+
+//============================
+// Description :
+// this the heart of flexi-typography framework, will include all the mixin and the placeholders
+//=============================
+
+// 1- Modular scale for (tablet,desktop, and large media)
+// 2:3 perfect fifth
+// 16px @ 1:1.5	ideal text size
+// 95px @ 1:1.5	important number - choosen from column width
+//---------------------------------------------------
+$scale-ratio : 1.5 !default;
+$font-size   : 16 !default;
+$line-height : 24 !default; // the line height is >=150% of font size
+
+// calculate the headingline elements
+$h1 : $font-size * 3.375;
+$h2 : $font-size * 2.25 ;
+$h3 : $font-size * 1.5  ;
+$h4 : $font-size * 1.0  ;
+$h5 : $font-size / 1.5  ;
+$h6 : $font-size / 2.25 ;
+//---------------------------------------------------
+
+// 2- Modular scale for mobile media
+// 2:3 perfect fifth
+// 13px @ 1:1.5	ideal text size
+// 480px @ 1:1.5	important number - choosen from column width
+//---------------------------------------------------
+$scale-ratio  : 1.5 !default;
+$font-size-mob: 13 !default;
+$line-height-mob  : 21 !default; // the line height is >=150% of font size
+
+// calculate the headingline elements
+$h1-mob : $font-size-mob * 2.25;
+$h2-mob : $font-size-mob * 1.5 ;
+$h3-mob : $font-size-mob * 1.25 ;
+$h4-mob : $font-size-mob * 1.0  ;
+$h5-mob : $font-size-mob / 1.5  ;
+$h6-mob : $font-size-mob / 2.25 ; 
+
+
+// color variables for body and headline
+$text-color : #333 !default;
+$head-color : #111 !default;
+
+
+// 3- Functions
+//---------------------------------------------------
+
+// html font size in %
+@function font-html($font-size,$base:16){
+    @return ($base / $font-size) * 100%;
+}
+
+// px function
+@function px($font-size){
+    @return $font-size *1px;
+}
+
+// rem function
+@function rem($font-size,$base:16){
+    @return ($font-size / $base) *1rem;
+}
+
+//---------------------------------------------------
+
+// 4- placeholders
+//---------------------------------------------------
+%head-family{
+    font-family: inherit;
+    color: $head-color;
+    text-transform :capitalize;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.6);
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+%margin{
+    margin: 0 0 px($font-size) 0;
+}
+
+
+// 5- Mixin
+//---------------------------------------------------
+
+// html font size in % - the root of typo system, because we are going to use rem size for the font
+@mixin html($font-size,$base:16){
+    font-size: font-html($font-size,$base);
+    -webkit-font-smoothing:antialiased !important;
+}
+
+// body and headline font size and font-family
+@mixin body-headline($font-size,$line-height:24,$base:16){
+    body{
+        font-family: "Helvetica Neue",Helvetica, Arial, sans-serif;
+        font-size: px($font-size);
+        font-size: rem($font-size,$base);
+        line-height: $line-height / $font-size ;
+        color: $text-color;
+    }
+    
+    h1, .h1{
+        font-size: px($h1);
+        font-size: rem($h1,$base);
+        letter-spacing: px(-2);
+        @extend %head-family;
+    }
+    h2, .h2{
+        font-size: px($h2);
+        font-size: rem($h2,$base);
+        letter-spacing: px(-1);
+        @extend %head-family;
+    }
+    h3, .h3{
+        font-size: px($h3);
+        font-size: rem($h3,$base);
+        @extend %head-family;
+    }
+    h4, .h4{
+        font-size: px($h4);
+        font-size: rem($h4,$base);
+        @extend %head-family;
+    }
+    h5, .h5{
+        font-size: px($h5);
+        font-size: rem($h5,$base);
+        @extend %head-family;
+    }
+    h6, .h6{
+        font-size: px($h6);
+        font-size: rem($h6,$base);
+        @extend %head-family;
+    }
+    .lead{
+        font-size: px($font-size * 1.125);
+        font-size: rem(($font-size *1.125) ,$base);
+        font-weight: 600;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p{
+        @extend %margin;
+    }
+}
+
+// define the link elements
+@mixin link($color){
+    &:link{
+    color  : $color;
+    text-decoration: none;
+    }
+    &:visited{
+        text-decoration: none;
+        color  : $color;
+    }
+    &:hover{
+        color : lighten($color,15%);
+        border-bottom: 1px solid lighten($color,15%);
+    }
+    &:active{
+        color : lighten($color,15%);
+        border-bottom: 1px solid lighten($color,15%);
+    }
+}
+
+// define the blockquote elements
+@mixin blockquote($padding-left,$color){
+    border-left : 5px solid rgba(0, 0, 0, 0.1);
+    padding-left: px($padding-left);
+    color: $color; 
+}
+
+// define pre,code, and kbd elements
+@mixin pre($color,$bg-color){
+    display: block;
+    padding: 1rem;
+    font-size: 1.3rem;
+    line-height: 1.43;
+    color: $color;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: $bg-color;
+    border: 1px solid #ccc;
+    
+}
+
+@mixin code($color){
+    padding: 2px 4px;
+    font-size: 90%;
+    color: $color; 
+    white-space: nowrap;
+    background-color: lighten($color,47%);
+   
+}
+
+@mixin kbd($color,$bg-color){
+    padding: 2px 4px;
+    font-size: 90%;
+    color: $color;
+    background-color:$bg-color; 
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .25);
+
+}
+
+@mixin mobile($fon-size-mob,$line-height: 21,$base:16){
+    body{
+        font-size: px($font-size-mob);
+        font-size: rem($font-size-mob,$base);
+        line-height: $line-height-mob / $font-size-mob;
+    }
+    
+    h1, .h1{
+        font-size: px($h1-mob);
+        font-size: rem($h1-mob,$base);
+        
+    }
+    h2, .h2{
+        font-size: px($h2-mob);
+        font-size: rem($h2-mob,$base);
+        
+    }
+    h3, .h3{
+        font-size: px($h3-mob);
+        font-size: rem($h3-mob,$base);
+        
+    }
+    h4, .h4{
+        font-size: px($h4-mob);
+        font-size: rem($h4-mob,$base);
+        
+    }
+    h5, .h5{
+        font-size: px($h5-mob);
+        font-size: rem($h5-mob,$base);
+       
+    }
+    h6, .h6{
+        font-size: px($h6-mob);
+        font-size: rem($h6-mob,$base);
+        
+    }
+    .lead{
+        font-size: px($font-size-mob * 1.125);
+        font-size: rem(($font-size-mob *1.125) ,$base);
+        font-weight: 700;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    p,ul,ol,blockquote,pre{
+        margin: 0 0 px($font-size-mob) 0;
+    }
+    
+    pre,code{
+       font-size: px($font-size-mob) - px(1);
+        font-size: rem($font-size-mob,$base)- rem(1,10);
+        line-height: inherit;
+    }
+    
+}
+
+// others
+@mixin raduis($raduis:5){
+    -webkit-border-radius:  px($raduis);
+    -moz-border-radius: px($raduis);
+    border-radius: px($raduis);
+}

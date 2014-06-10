@@ -1,0 +1,141 @@
+//===========================
+// felxi-grids bundle
+// created by : MrAhmad
+// date : 10 June 2014
+// website : http://sass-flexi.com/
+// version : 0.1.alpha.1
+//============================
+
+//============================
+// Description :
+// this the heart of flexi-grid framework, will include all the mixin and the placeholders
+//=============================
+
+// 1- flexi-grid variables
+$gutter-width  : 30 !default;
+$total-columns : 12 !default;	
+
+// 2- flexi-grid mixin 
+
+// define the clearfix hack
+%clear {
+	&:before,&:after{
+		content: " ";
+		display: table;
+	}
+	&:after{
+		clear: both;
+	}
+}
+
+// define the column shape
+%column{
+	min-height: 1px;
+	position: relative;
+	padding-left: ($gutter-width/2) * 1px;
+	padding-right: ($gutter-width/2) * 1px;
+}
+
+// define the box sizing
+@mixin box-sizing($type:border-box) {
+	-webkit-box-sizing: $type;
+	-moz-box-sizing: $type;
+	box-sizing: $type;
+}
+
+// define the container for the grid system
+@mixin container($gutter-width:30) {
+	margin : 0 auto; // centering the page contents
+	padding-left: ($gutter-width/2)  * 1px;
+	padding-right: ($gutter-width/2) * 1px;
+	@extend %clear;
+}
+
+// define the raw for the grid system, used to create horizantal of columns
+@mixin row($gutter-width:30) {
+	margin-left: ($gutter-width/-2) * 1px;
+	margin-right: ($gutter-width/-2) * 1px;
+	*zoom: 1;
+	@extend %clear;
+}
+
+// define center block
+@mixin center-block() {
+	margin: 0 auto;
+	display: block;
+}
+
+// define center image
+@mixin center-img() {
+	margin: 0 auto;
+	display: block;;
+}
+
+// define image for samll medias
+@mixin img-respon() {
+	max-width: 100%;
+	height: auto;
+}
+
+// define the width for any element,class, or ID
+@mixin width($no-columns,$total-columns:12) {
+	width: floor(percentage($no-columns/$total-columns));
+}
+
+
+// Generate the columns for the grid system
+@mixin columns($property:col,$total-columns:12) {
+	@for $i from 1 through $total-columns {
+		.#{$property}-#{$i}{
+			@extend %column;
+		}
+	}
+}
+
+// define the width,offest,push, and pull for the grid system
+
+// column width
+@mixin column-width($property:col,$total-columns:12) {
+	@for $i from 1 through $total-columns {
+		.#{$property}-#{$i}{
+			width: ((100/$total-columns)*$i) *1%;
+		}
+	}
+}
+
+// column offset
+@mixin offset($property:offset,$total-columns:12){
+	@for $i from 1 through $total-columns{
+		.#{$property}-#{$i}{
+			margin-right: ((100/$total-columns)*$i) *1%;
+		}
+	}
+}
+
+// column push
+@mixin push($property:push,$total-columns:12){
+	@for $i from 1 through $total-columns{
+		.#{$property}-#{$i}{
+			left: ((100/$total-columns)*$i) *1%;
+		}
+	}
+}
+
+// column pull
+@mixin pull($property:pull,$total-columns:12){
+	@for $i from 1 through $total-columns{
+		.#{$property}-#{$i}{
+			right: ((100/$total-columns)*$i) *1%;
+		}
+	}
+}
+
+
+// float column
+@mixin direction($property:col,$total-columns:12){
+	@for $i from 1 through $total-columns{
+		.#{$property}-#{$i}{
+			@extend %float;
+		}
+	}
+}
