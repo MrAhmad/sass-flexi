@@ -96,7 +96,7 @@ $head-color : #111 !default;
 }
 
 // body and headline font size and font-family
-@mixin body-headline($font-size,$line-height:24,$base:16){
+@mixin body-headline($font-size,$base:16){
     body{
         font-family: "Helvetica Neue",Helvetica, Arial, sans-serif;
         font-size: px($font-size);
@@ -208,7 +208,7 @@ $head-color : #111 !default;
 
 }
 
-@mixin mobile($fon-size-mob,$line-height: 21,$base:16){
+@mixin mobile($fon-size-mob,$base:16){
     body{
         font-size: px($font-size-mob);
         font-size: rem($font-size-mob,$base);
