@@ -17,7 +17,6 @@
 //---------------------------------------------------
 $scale-ratio : 1.5 !default;
 $font-size   : 16 !default;
-$line-height : 24 !default; // the line height is >=150% of font size
 
 // calculate the headingline elements
 $h1 : $font-size * 3.375;
@@ -35,7 +34,7 @@ $h6 : $font-size / 2.25 ;
 //---------------------------------------------------
 $scale-ratio  : 1.5 !default;
 $font-size-mob: 13 !default;
-$line-height-mob  : 21 !default; // the line height is >=150% of font size
+
 
 // calculate the headingline elements
 $h1-mob : $font-size-mob * 2.25;
@@ -102,7 +101,7 @@ $head-color : #111 !default;
         font-family: "Helvetica Neue",Helvetica, Arial, sans-serif;
         font-size: px($font-size);
         font-size: rem($font-size,$base);
-        line-height: $line-height / $font-size ;
+        line-height: ($font-size *1.5) / $font-size ;
         color: $text-color;
     }
     
@@ -213,7 +212,7 @@ $head-color : #111 !default;
     body{
         font-size: px($font-size-mob);
         font-size: rem($font-size-mob,$base);
-        line-height: $line-height-mob / $font-size-mob;
+        line-height: ($font-size-mob *1.5) / $font-size-mob;
     }
     
     h1, .h1{
