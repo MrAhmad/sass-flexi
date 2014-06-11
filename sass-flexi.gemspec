@@ -1,7 +1,8 @@
 Gem::Specification.new do |s|
   # Release Specific Information
-  s.version = "0.2.alpha"
+  s.version = "0.3.alpha"
   s.date = "2014-06-10"
+  s.Licenses = ['MIT']  
 
   # Gem Details
   s.name = "sass-flexi"
@@ -18,5 +19,5 @@ Gem::Specification.new do |s|
 
   # Gem Bookkeeping
   s.rubygems_version = %q{2.2.2}
-  s.add_dependency("compass", [">= 0.12"])
+  s.add_dependency("compass", ["~> 0.12"])
 end
