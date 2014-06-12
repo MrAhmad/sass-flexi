@@ -1,8 +1,8 @@
 Gem::Specification.new do |s|
   # Release Specific Information
-  s.version = "0.3.alpha"
+  s.version = "0.4.alpha"
   s.date = "2014-06-10"
-  s.Licenses = ['MIT']  
+  s.licenses = ['MIT']  
 
   # Gem Details
   s.name = "sass-flexi"
