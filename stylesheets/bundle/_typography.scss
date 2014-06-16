@@ -48,7 +48,7 @@ $h6-mob : $font-size-mob / 2.25 ;
 // 3- Typography variables
 // Body and headline font color
 $text-color : #333 !default;
-$head-color : darken($text-color, 80%) !default;
+$head-color : darken($text-color, 20%) !default;
 
 // font-family 
 $sans-serif : "Helvetica Neue",Helvetica, Arial, sans-serif !default;
