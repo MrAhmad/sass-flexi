@@ -45,9 +45,14 @@ $h5-mob : $font-size-mob / 1.5  ;
 $h6-mob : $font-size-mob / 2.25 ; 
 
 
-// color variables for body and headline
+// 3- Typography variables
+// Body and headline font color
 $text-color : #333 !default;
-$head-color : #111 !default;
+$head-color : darken($text-color, 80%) !default;
+
+// font-family 
+$sans-serif : "Helvetica Neue",Helvetica, Arial, sans-serif !default;
+$serif :  Georgia, Times, "Times New Roman", serif !default;
 
 
 // 3- Functions
@@ -73,7 +78,7 @@ $head-color : #111 !default;
 // 4- placeholders
 //---------------------------------------------------
 %head-family{
-    font-family: inherit;
+    font-family: $sans-serif;
     color: $head-color;
     text-transform :capitalize;
     text-shadow: 0 1px 1px rgba(255,255,255,0.6);
@@ -98,7 +103,7 @@ $head-color : #111 !default;
 // body and headline font size and font-family
 @mixin body-headline($font-size,$base:16){
     body{
-        font-family: "Helvetica Neue",Helvetica, Arial, sans-serif;
+        font-family: $sans-serif
         font-size: px($font-size);
         font-size: rem($font-size,$base);
         line-height: ($font-size *1.5) / $font-size ;
