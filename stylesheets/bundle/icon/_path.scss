@@ -1,0 +1,14 @@
+
+/* font family decleration and font path 
+=========*/
+
+@font-face {
+	font-family:'flexi';
+    src:url('#{$font-path}#{$font-name}.eot?cyeaso');
+    src:url('#{$font-path}#{$font-name}.eot?#iefixcyeaso') format('embedded-opentype'),
+        url('#{$font-path}#{$font-name}.woff?cyeaso') format('woff'),
+		url('#{$font-path}#{$font-name}.ttf?cyeaso') format('truetype'),
+		url('#{$font-path}#{$font-name}.svg?cyeaso#flexi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

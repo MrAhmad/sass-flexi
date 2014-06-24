@@ -1,0 +1,1355 @@
+
+/* icon Mapping 
+=============*/
+
+.#{$prefix}-home:before {
+	content: "\e600";
+	
+}
+.#{$prefix}-home2:before {
+	content: "\e601";
+}
+.#{$prefix}-home3:before {
+	content: "\e602";
+}
+.#{$prefix}-office:before {
+	content: "\e603";
+}
+.#{$prefix}-newspaper:before {
+	content: "\e604";
+}
+.#{$prefix}-pencil:before {
+	content: "\e605";
+}
+.#{$prefix}-pencil2:before {
+	content: "\e606";
+}
+.#{$prefix}-quill:before {
+	content: "\e607";
+}
+.#{$prefix}-pen:before {
+	content: "\e608";
+}
+.#{$prefix}-blog:before {
+	content: "\e609";
+}
+.#{$prefix}-droplet:before {
+	content: "\e60a";
+}
+.#{$prefix}-paint-format:before {
+	content: "\e60b";
+}
+.#{$prefix}-image:before {
+	content: "\e60c";
+}
+.#{$prefix}-image2:before {
+	content: "\e60d";
+}
+.#{$prefix}-images:before {
+	content: "\e60e";
+}
+.#{$prefix}-camera:before {
+	content: "\e60f";
+}
+.#{$prefix}-music:before {
+	content: "\e610";
+}
+.#{$prefix}-headphones:before {
+	content: "\e611";
+}
+.#{$prefix}-play:before {
+	content: "\e612";
+}
+.#{$prefix}-film:before {
+	content: "\e613";
+}
+.#{$prefix}-camera2:before {
+	content: "\e614";
+}
+.#{$prefix}-dice:before {
+	content: "\e615";
+}
+.#{$prefix}-pacman:before {
+	content: "\e616";
+}
+.#{$prefix}-spades:before {
+	content: "\e617";
+}
+.#{$prefix}-clubs:before {
+	content: "\e618";
+}
+.#{$prefix}-diamonds:before {
+	content: "\e619";
+}
+.#{$prefix}-pawn:before {
+	content: "\e61a";
+}
+.#{$prefix}-bullhorn:before {
+	content: "\e61b";
+}
+.#{$prefix}-connection:before {
+	content: "\e61c";
+}
+.#{$prefix}-podcast:before {
+	content: "\e61d";
+}
+.#{$prefix}-feed:before {
+	content: "\e61e";
+}
+.#{$prefix}-book:before {
+	content: "\e61f";
+}
+.#{$prefix}-books:before {
+	content: "\e620";
+}
+.#{$prefix}-library:before {
+	content: "\e621";
+}
+.#{$prefix}-file:before {
+	content: "\e622";
+}
+.#{$prefix}-profile:before {
+	content: "\e623";
+}
+.#{$prefix}-file2:before {
+	content: "\e624";
+}
+.#{$prefix}-file3:before {
+	content: "\e625";
+}
+.#{$prefix}-file4:before {
+	content: "\e626";
+}
+.#{$prefix}-copy:before {
+	content: "\e627";
+}
+.#{$prefix}-copy2:before {
+	content: "\e628";
+}
+.#{$prefix}-copy3:before {
+	content: "\e629";
+}
+.#{$prefix}-paste:before {
+	content: "\e62a";
+}
+.#{$prefix}-paste2:before {
+	content: "\e62b";
+}
+.#{$prefix}-paste3:before {
+	content: "\e62c";
+}
+.#{$prefix}-stack:before {
+	content: "\e62d";
+}
+.#{$prefix}-folder:before {
+	content: "\e62e";
+}
+.#{$prefix}-folder-open:before {
+	content: "\e62f";
+}
+.#{$prefix}-tag:before {
+	content: "\e630";
+}
+.#{$prefix}-tags:before {
+	content: "\e631";
+}
+.#{$prefix}-barcode:before {
+	content: "\e632";
+}
+.#{$prefix}-qrcode:before {
+	content: "\e633";
+}
+.#{$prefix}-ticket:before {
+	content: "\e634";
+}
+.#{$prefix}-cart:before {
+	content: "\e635";
+}
+.#{$prefix}-cart2:before {
+	content: "\e636";
+}
+.#{$prefix}-cart3:before {
+	content: "\e637";
+}
+.#{$prefix}-coin:before {
+	content: "\e638";
+}
+.#{$prefix}-credit:before {
+	content: "\e639";
+}
+.#{$prefix}-calculate:before {
+	content: "\e63a";
+}
+.#{$prefix}-support:before {
+	content: "\e63b";
+}
+.#{$prefix}-phone:before {
+	content: "\e63c";
+}
+.#{$prefix}-phone-hang-up:before {
+	content: "\e63d";
+}
+.#{$prefix}-address-book:before {
+	content: "\e63e";
+}
+.#{$prefix}-notebook:before {
+	content: "\e63f";
+}
+.#{$prefix}-envelope:before {
+	content: "\e640";
+}
+.#{$prefix}-pushpin:before {
+	content: "\e641";
+}
+.#{$prefix}-location:before {
+	content: "\e642";
+}
+.#{$prefix}-location2:before {
+	content: "\e643";
+}
+.#{$prefix}-compass:before {
+	content: "\e644";
+}
+.#{$prefix}-map:before {
+	content: "\e645";
+}
+.#{$prefix}-map2:before {
+	content: "\e646";
+}
+.#{$prefix}-history:before {
+	content: "\e647";
+}
+.#{$prefix}-clock:before {
+	content: "\e648";
+}
+.#{$prefix}-clock2:before {
+	content: "\e649";
+}
+.#{$prefix}-alarm:before {
+	content: "\e64a";
+}
+.#{$prefix}-alarm2:before {
+	content: "\e64b";
+}
+.#{$prefix}-bell:before {
+	content: "\e64c";
+}
+.#{$prefix}-stopwatch:before {
+	content: "\e64d";
+}
+.#{$prefix}-calendar:before {
+	content: "\e64e";
+}
+.#{$prefix}-calendar2:before {
+	content: "\e64f";
+}
+.#{$prefix}-print:before {
+	content: "\e650";
+}
+.#{$prefix}-keyboard:before {
+	content: "\e651";
+}
+.#{$prefix}-screen:before {
+	content: "\e652";
+}
+.#{$prefix}-laptop:before {
+	content: "\e653";
+}
+.#{$prefix}-mobile:before {
+	content: "\e654";
+}
+.#{$prefix}-mobile2:before {
+	content: "\e655";
+}
+.#{$prefix}-tablet:before {
+	content: "\e656";
+}
+.#{$prefix}-tv:before {
+	content: "\e657";
+}
+.#{$prefix}-cabinet:before {
+	content: "\e658";
+}
+.#{$prefix}-drawer:before {
+	content: "\e659";
+}
+.#{$prefix}-drawer2:before {
+	content: "\e65a";
+}
+.#{$prefix}-drawer3:before {
+	content: "\e65b";
+}
+.#{$prefix}-box-add:before {
+	content: "\e65c";
+}
+.#{$prefix}-box-remove:before {
+	content: "\e65d";
+}
+.#{$prefix}-download:before {
+	content: "\e65e";
+}
+.#{$prefix}-upload:before {
+	content: "\e65f";
+}
+.#{$prefix}-disk:before {
+	content: "\e660";
+}
+.#{$prefix}-storage:before {
+	content: "\e661";
+}
+.#{$prefix}-undo:before {
+	content: "\e662";
+}
+.#{$prefix}-redo:before {
+	content: "\e663";
+}
+.#{$prefix}-flip:before {
+	content: "\e664";
+}
+.#{$prefix}-flip2:before {
+	content: "\e665";
+}
+.#{$prefix}-undo2:before {
+	content: "\e666";
+}
+.#{$prefix}-redo2:before {
+	content: "\e667";
+}
+.#{$prefix}-forward:before {
+	content: "\e668";
+}
+.#{$prefix}-reply:before {
+	content: "\e669";
+}
+.#{$prefix}-bubble:before {
+	content: "\e66a";
+}
+.#{$prefix}-bubbles:before {
+	content: "\e66b";
+}
+.#{$prefix}-bubbles2:before {
+	content: "\e66c";
+}
+.#{$prefix}-bubble2:before {
+	content: "\e66d";
+}
+.#{$prefix}-bubbles3:before {
+	content: "\e66e";
+}
+.#{$prefix}-bubbles4:before {
+	content: "\e66f";
+}
+.#{$prefix}-user:before {
+	content: "\e670";
+}
+.#{$prefix}-users:before {
+	content: "\e671";
+}
+.#{$prefix}-user2:before {
+	content: "\e672";
+}
+.#{$prefix}-users2:before {
+	content: "\e673";
+}
+.#{$prefix}-user3:before {
+	content: "\e674";
+}
+.#{$prefix}-user4:before {
+	content: "\e675";
+}
+.#{$prefix}-quotes-left:before {
+	content: "\e676";
+}
+.#{$prefix}-busy:before {
+	content: "\e677";
+}
+.#{$prefix}-spinner:before {
+	content: "\e678";
+}
+.#{$prefix}-spinner2:before {
+	content: "\e679";
+}
+.#{$prefix}-spinner3:before {
+	content: "\e67a";
+}
+.#{$prefix}-spinner4:before {
+	content: "\e67b";
+}
+.#{$prefix}-spinner5:before {
+	content: "\e67c";
+}
+.#{$prefix}-spinner6:before {
+	content: "\e67d";
+}
+.#{$prefix}-binoculars:before {
+	content: "\e67e";
+}
+.#{$prefix}-search:before {
+	content: "\e67f";
+}
+.#{$prefix}-zoomin:before {
+	content: "\e680";
+}
+.#{$prefix}-zoomout:before {
+	content: "\e681";
+}
+.#{$prefix}-expand:before {
+	content: "\e682";
+}
+.#{$prefix}-contract:before {
+	content: "\e683";
+}
+.#{$prefix}-expand2:before {
+	content: "\e684";
+}
+.#{$prefix}-contract2:before {
+	content: "\e685";
+}
+.#{$prefix}-key:before {
+	content: "\e686";
+}
+.#{$prefix}-key2:before {
+	content: "\e687";
+}
+.#{$prefix}-lock:before {
+	content: "\e688";
+}
+.#{$prefix}-lock2:before {
+	content: "\e689";
+}
+.#{$prefix}-unlocked:before {
+	content: "\e68a";
+}
+.#{$prefix}-wrench:before {
+	content: "\e68b";
+}
+.#{$prefix}-settings:before {
+	content: "\e68c";
+}
+.#{$prefix}-equalizer:before {
+	content: "\e68d";
+}
+.#{$prefix}-cog:before {
+	content: "\e68e";
+}
+.#{$prefix}-cogs:before {
+	content: "\e68f";
+}
+.#{$prefix}-cog2:before {
+	content: "\e690";
+}
+.#{$prefix}-hammer:before {
+	content: "\e691";
+}
+.#{$prefix}-wand:before {
+	content: "\e692";
+}
+.#{$prefix}-aid:before {
+	content: "\e693";
+}
+.#{$prefix}-bug:before {
+	content: "\e694";
+}
+.#{$prefix}-pie:before {
+	content: "\e695";
+}
+.#{$prefix}-stats:before {
+	content: "\e696";
+}
+.#{$prefix}-bars:before {
+	content: "\e697";
+}
+.#{$prefix}-bars2:before {
+	content: "\e698";
+}
+.#{$prefix}-gift:before {
+	content: "\e699";
+}
+.#{$prefix}-trophy:before {
+	content: "\e69a";
+}
+.#{$prefix}-glass:before {
+	content: "\e69b";
+}
+.#{$prefix}-mug:before {
+	content: "\e69c";
+}
+.#{$prefix}-food:before {
+	content: "\e69d";
+}
+.#{$prefix}-leaf:before {
+	content: "\e69e";
+}
+.#{$prefix}-rocket:before {
+	content: "\e69f";
+}
+.#{$prefix}-meter:before {
+	content: "\e6a0";
+}
+.#{$prefix}-meter2:before {
+	content: "\e6a1";
+}
+.#{$prefix}-dashboard:before {
+	content: "\e6a2";
+}
+.#{$prefix}-hammer2:before {
+	content: "\e6a3";
+}
+.#{$prefix}-fire:before {
+	content: "\e6a4";
+}
+.#{$prefix}-lab:before {
+	content: "\e6a5";
+}
+.#{$prefix}-magnet:before {
+	content: "\e6a6";
+}
+.#{$prefix}-remove:before {
+	content: "\e6a7";
+}
+.#{$prefix}-remove2:before {
+	content: "\e6a8";
+}
+.#{$prefix}-briefcase:before {
+	content: "\e6a9";
+}
+.#{$prefix}-airplane:before {
+	content: "\e6aa";
+}
+.#{$prefix}-truck:before {
+	content: "\e6ab";
+}
+.#{$prefix}-road:before {
+	content: "\e6ac";
+}
+.#{$prefix}-accessibility:before {
+	content: "\e6ad";
+}
+.#{$prefix}-target:before {
+	content: "\e6ae";
+}
+.#{$prefix}-shield:before {
+	content: "\e6af";
+}
+.#{$prefix}-lightning:before {
+	content: "\e6b0";
+}
+.#{$prefix}-switch:before {
+	content: "\e6b1";
+}
+.#{$prefix}-powercord:before {
+	content: "\e6b2";
+}
+.#{$prefix}-signup:before {
+	content: "\e6b3";
+}
+.#{$prefix}-list:before {
+	content: "\e6b4";
+}
+.#{$prefix}-list2:before {
+	content: "\e6b5";
+}
+.#{$prefix}-numbered-list:before {
+	content: "\e6b6";
+}
+.#{$prefix}-menu:before {
+	content: "\e6b7";
+}
+.#{$prefix}-menu2:before {
+	content: "\e6b8";
+}
+.#{$prefix}-tree:before {
+	content: "\e6b9";
+}
+.#{$prefix}-cloud:before {
+	content: "\e6ba";
+}
+.#{$prefix}-cloud-download:before {
+	content: "\e6bb";
+}
+.#{$prefix}-cloud-upload:before {
+	content: "\e6bc";
+}
+.#{$prefix}-download2:before {
+	content: "\e6bd";
+}
+.#{$prefix}-upload2:before {
+	content: "\e6be";
+}
+.#{$prefix}-download3:before {
+	content: "\e6bf";
+}
+.#{$prefix}-upload3:before {
+	content: "\e6c0";
+}
+.#{$prefix}-globe:before {
+	content: "\e6c1";
+}
+.#{$prefix}-earth:before {
+	content: "\e6c2";
+}
+.#{$prefix}-link:before {
+	content: "\e6c3";
+}
+.#{$prefix}-flag:before {
+	content: "\e6c4";
+}
+.#{$prefix}-attachment:before {
+	content: "\e6c5";
+}
+.#{$prefix}-eye:before {
+	content: "\e6c6";
+}
+.#{$prefix}-eye-blocked:before {
+	content: "\e6c7";
+}
+.#{$prefix}-eye2:before {
+	content: "\e6c8";
+}
+.#{$prefix}-bookmark:before {
+	content: "\e6c9";
+}
+.#{$prefix}-bookmarks:before {
+	content: "\e6ca";
+}
+.#{$prefix}-brightness-medium:before {
+	content: "\e6cb";
+}
+.#{$prefix}-brightness-contrast:before {
+	content: "\e6cc";
+}
+.#{$prefix}-contrast:before {
+	content: "\e6cd";
+}
+.#{$prefix}-star:before {
+	content: "\e6ce";
+}
+.#{$prefix}-star2:before {
+	content: "\e6cf";
+}
+.#{$prefix}-star3:before {
+	content: "\e6d0";
+}
+.#{$prefix}-heart:before {
+	content: "\e6d1";
+}
+.#{$prefix}-heart2:before {
+	content: "\e6d2";
+}
+.#{$prefix}-heart-broken:before {
+	content: "\e6d3";
+}
+.#{$prefix}-thumbs-up:before {
+	content: "\e6d4";
+}
+.#{$prefix}-thumbs-up2:before {
+	content: "\e6d5";
+}
+.#{$prefix}-happy:before {
+	content: "\e6d6";
+}
+.#{$prefix}-happy2:before {
+	content: "\e6d7";
+}
+.#{$prefix}-smiley:before {
+	content: "\e6d8";
+}
+.#{$prefix}-smiley2:before {
+	content: "\e6d9";
+}
+.#{$prefix}-tongue:before {
+	content: "\e6da";
+}
+.#{$prefix}-tongue2:before {
+	content: "\e6db";
+}
+.#{$prefix}-sad:before {
+	content: "\e6dc";
+}
+.#{$prefix}-sad2:before {
+	content: "\e6dd";
+}
+.#{$prefix}-wink:before {
+	content: "\e6de";
+}
+.#{$prefix}-wink2:before {
+	content: "\e6df";
+}
+.#{$prefix}-grin:before {
+	content: "\e6e0";
+}
+.#{$prefix}-grin2:before {
+	content: "\e6e1";
+}
+.#{$prefix}-cool:before {
+	content: "\e6e2";
+}
+.#{$prefix}-cool2:before {
+	content: "\e6e3";
+}
+.#{$prefix}-angry:before {
+	content: "\e6e4";
+}
+.#{$prefix}-angry2:before {
+	content: "\e6e5";
+}
+.#{$prefix}-evil:before {
+	content: "\e6e6";
+}
+.#{$prefix}-evil2:before {
+	content: "\e6e7";
+}
+.#{$prefix}-shocked:before {
+	content: "\e6e8";
+}
+.#{$prefix}-shocked2:before {
+	content: "\e6e9";
+}
+.#{$prefix}-confused:before {
+	content: "\e6ea";
+}
+.#{$prefix}-confused2:before {
+	content: "\e6eb";
+}
+.#{$prefix}-neutral:before {
+	content: "\e6ec";
+}
+.#{$prefix}-neutral2:before {
+	content: "\e6ed";
+}
+.#{$prefix}-wondering:before {
+	content: "\e6ee";
+}
+.#{$prefix}-wondering2:before {
+	content: "\e6ef";
+}
+.#{$prefix}-point-up:before {
+	content: "\e6f0";
+}
+.#{$prefix}-point-right:before {
+	content: "\e6f1";
+}
+.#{$prefix}-point-down:before {
+	content: "\e6f2";
+}
+.#{$prefix}-point-left:before {
+	content: "\e6f3";
+}
+.#{$prefix}-warning:before {
+	content: "\e6f4";
+}
+.#{$prefix}-notification:before {
+	content: "\e6f5";
+}
+.#{$prefix}-question:before {
+	content: "\e6f6";
+}
+.#{$prefix}-info:before {
+	content: "\e6f7";
+}
+.#{$prefix}-info2:before {
+	content: "\e6f8";
+}
+.#{$prefix}-blocked:before {
+	content: "\e6f9";
+}
+.#{$prefix}-cancel-circle:before {
+	content: "\e6fa";
+}
+.#{$prefix}-checkmark-circle:before {
+	content: "\e6fb";
+}
+.#{$prefix}-spam:before {
+	content: "\e6fc";
+}
+.#{$prefix}-close:before {
+	content: "\e6fd";
+}
+.#{$prefix}-checkmark:before {
+	content: "\e6fe";
+}
+.#{$prefix}-checkmark2:before {
+	content: "\e6ff";
+}
+.#{$prefix}-spell-check:before {
+	content: "\e700";
+}
+.#{$prefix}-minus:before {
+	content: "\e701";
+}
+.#{$prefix}-plus:before {
+	content: "\e702";
+}
+.#{$prefix}-enter:before {
+	content: "\e703";
+}
+.#{$prefix}-exit:before {
+	content: "\e704";
+}
+.#{$prefix}-play2:before {
+	content: "\e705";
+}
+.#{$prefix}-pause:before {
+	content: "\e706";
+}
+.#{$prefix}-stop:before {
+	content: "\e707";
+}
+.#{$prefix}-backward:before {
+	content: "\e708";
+}
+.#{$prefix}-forward2:before {
+	content: "\e709";
+}
+.#{$prefix}-play3:before {
+	content: "\e70a";
+}
+.#{$prefix}-pause2:before {
+	content: "\e70b";
+}
+.#{$prefix}-stop2:before {
+	content: "\e70c";
+}
+.#{$prefix}-backward2:before {
+	content: "\e70d";
+}
+.#{$prefix}-forward3:before {
+	content: "\e70e";
+}
+.#{$prefix}-first:before {
+	content: "\e70f";
+}
+.#{$prefix}-last:before {
+	content: "\e710";
+}
+.#{$prefix}-previous:before {
+	content: "\e711";
+}
+.#{$prefix}-next:before {
+	content: "\e712";
+}
+.#{$prefix}-eject:before {
+	content: "\e713";
+}
+.#{$prefix}-volume-high:before {
+	content: "\e714";
+}
+.#{$prefix}-volume-medium:before {
+	content: "\e715";
+}
+.#{$prefix}-volume-low:before {
+	content: "\e716";
+}
+.#{$prefix}-volume-mute:before {
+	content: "\e717";
+}
+.#{$prefix}-volume-mute2:before {
+	content: "\e718";
+}
+.#{$prefix}-volume-increase:before {
+	content: "\e719";
+}
+.#{$prefix}-volume-decrease:before {
+	content: "\e71a";
+}
+.#{$prefix}-loop:before {
+	content: "\e71b";
+}
+.#{$prefix}-loop2:before {
+	content: "\e71c";
+}
+.#{$prefix}-loop3:before {
+	content: "\e71d";
+}
+.#{$prefix}-shuffle:before {
+	content: "\e71e";
+}
+.#{$prefix}-arrow-up-left:before {
+	content: "\e71f";
+}
+.#{$prefix}-arrow-up:before {
+	content: "\e720";
+}
+.#{$prefix}-arrow-up-right:before {
+	content: "\e721";
+}
+.#{$prefix}-arrow-right:before {
+	content: "\e722";
+}
+.#{$prefix}-arrow-down-right:before {
+	content: "\e723";
+}
+.#{$prefix}-arrow-down:before {
+	content: "\e724";
+}
+.#{$prefix}-arrow-down-left:before {
+	content: "\e725";
+}
+.#{$prefix}-arrow-left:before {
+	content: "\e726";
+}
+.#{$prefix}-arrow-up-left2:before {
+	content: "\e727";
+}
+.#{$prefix}-arrow-up2:before {
+	content: "\e728";
+}
+.#{$prefix}-arrow-up-right2:before {
+	content: "\e729";
+}
+.#{$prefix}-arrow-right2:before {
+	content: "\e72a";
+}
+.#{$prefix}-arrow-down-right2:before {
+	content: "\e72b";
+}
+.#{$prefix}-arrow-down2:before {
+	content: "\e72c";
+}
+.#{$prefix}-arrow-down-left2:before {
+	content: "\e72d";
+}
+.#{$prefix}-arrow-left2:before {
+	content: "\e72e";
+}
+.#{$prefix}-arrow-up-left3:before {
+	content: "\e72f";
+}
+.#{$prefix}-arrow-up3:before {
+	content: "\e730";
+}
+.#{$prefix}-arrow-up-right3:before {
+	content: "\e731";
+}
+.#{$prefix}-arrow-right3:before {
+	content: "\e732";
+}
+.#{$prefix}-arrow-down-right3:before {
+	content: "\e733";
+}
+.#{$prefix}-arrow-down3:before {
+	content: "\e734";
+}
+.#{$prefix}-arrow-down-left3:before {
+	content: "\e735";
+}
+.#{$prefix}-arrow-left3:before {
+	content: "\e736";
+}
+.#{$prefix}-tab:before {
+	content: "\e737";
+}
+.#{$prefix}-checkbox-checked:before {
+	content: "\e738";
+}
+.#{$prefix}-checkbox-unchecked:before {
+	content: "\e739";
+}
+.#{$prefix}-checkbox-partial:before {
+	content: "\e73a";
+}
+.#{$prefix}-radio-checked:before {
+	content: "\e73b";
+}
+.#{$prefix}-radio-unchecked:before {
+	content: "\e73c";
+}
+.#{$prefix}-crop:before {
+	content: "\e73d";
+}
+.#{$prefix}-scissors:before {
+	content: "\e73e";
+}
+.#{$prefix}-filter:before {
+	content: "\e73f";
+}
+.#{$prefix}-filter2:before {
+	content: "\e740";
+}
+.#{$prefix}-font:before {
+	content: "\e741";
+}
+.#{$prefix}-text-height:before {
+	content: "\e742";
+}
+.#{$prefix}-text-width:before {
+	content: "\e743";
+}
+.#{$prefix}-bold:before {
+	content: "\e744";
+}
+.#{$prefix}-underline:before {
+	content: "\e745";
+}
+.#{$prefix}-italic:before {
+	content: "\e746";
+}
+.#{$prefix}-strikethrough:before {
+	content: "\e747";
+}
+.#{$prefix}-omega:before {
+	content: "\e748";
+}
+.#{$prefix}-sigma:before {
+	content: "\e749";
+}
+.#{$prefix}-table:before {
+	content: "\e74a";
+}
+.#{$prefix}-table2:before {
+	content: "\e74b";
+}
+.#{$prefix}-insert-template:before {
+	content: "\e74c";
+}
+.#{$prefix}-pilcrow:before {
+	content: "\e74d";
+}
+.#{$prefix}-lefttoright:before {
+	content: "\e74e";
+}
+.#{$prefix}-righttoleft:before {
+	content: "\e74f";
+}
+.#{$prefix}-paragraph-left:before {
+	content: "\e750";
+}
+.#{$prefix}-paragraph-center:before {
+	content: "\e751";
+}
+.#{$prefix}-paragraph-right:before {
+	content: "\e752";
+}
+.#{$prefix}-paragraph-justify:before {
+	content: "\e753";
+}
+.#{$prefix}-paragraph-left2:before {
+	content: "\e754";
+}
+.#{$prefix}-paragraph-center2:before {
+	content: "\e755";
+}
+.#{$prefix}-paragraph-right2:before {
+	content: "\e756";
+}
+.#{$prefix}-paragraph-justify2:before {
+	content: "\e757";
+}
+.#{$prefix}-indent-increase:before {
+	content: "\e758";
+}
+.#{$prefix}-indent-decrease:before {
+	content: "\e759";
+}
+.#{$prefix}-newtab:before {
+	content: "\e75a";
+}
+.#{$prefix}-embed:before {
+	content: "\e75b";
+}
+.#{$prefix}-code:before {
+	content: "\e75c";
+}
+.#{$prefix}-console:before {
+	content: "\e75d";
+}
+.#{$prefix}-share:before {
+	content: "\e75e";
+}
+.#{$prefix}-mail:before {
+	content: "\e75f";
+}
+.#{$prefix}-mail2:before {
+	content: "\e760";
+}
+.#{$prefix}-mail3:before {
+	content: "\e761";
+}
+.#{$prefix}-mail4:before {
+	content: "\e762";
+}
+.#{$prefix}-google:before {
+	content: "\e763";
+}
+.#{$prefix}-googleplus:before {
+	content: "\e764";
+}
+.#{$prefix}-googleplus2:before {
+	content: "\e765";
+}
+.#{$prefix}-googleplus3:before {
+	content: "\e766";
+}
+.#{$prefix}-googleplus4:before {
+	content: "\e767";
+}
+.#{$prefix}-google-drive:before {
+	content: "\e768";
+}
+.#{$prefix}-facebook:before {
+	content: "\e769";
+}
+.#{$prefix}-facebook2:before {
+	content: "\e76a";
+}
+.#{$prefix}-facebook3:before {
+	content: "\e76b";
+}
+.#{$prefix}-instagram:before {
+	content: "\e76c";
+}
+.#{$prefix}-twitter:before {
+	content: "\e76d";
+}
+.#{$prefix}-twitter2:before {
+	content: "\e76e";
+}
+.#{$prefix}-twitter3:before {
+	content: "\e76f";
+}
+.#{$prefix}-feed2:before {
+	content: "\e770";
+}
+.#{$prefix}-feed3:before {
+	content: "\e771";
+}
+.#{$prefix}-feed4:before {
+	content: "\e772";
+}
+.#{$prefix}-youtube:before {
+	content: "\e773";
+}
+.#{$prefix}-youtube2:before {
+	content: "\e774";
+}
+.#{$prefix}-vimeo:before {
+	content: "\e775";
+}
+.#{$prefix}-vimeo2:before {
+	content: "\e776";
+}
+.#{$prefix}-vimeo3:before {
+	content: "\e777";
+}
+.#{$prefix}-lanyrd:before {
+	content: "\e778";
+}
+.#{$prefix}-flickr:before {
+	content: "\e779";
+}
+.#{$prefix}-flickr2:before {
+	content: "\e77a";
+}
+.#{$prefix}-flickr3:before {
+	content: "\e77b";
+}
+.#{$prefix}-flickr4:before {
+	content: "\e77c";
+}
+.#{$prefix}-picassa:before {
+	content: "\e77d";
+}
+.#{$prefix}-picassa2:before {
+	content: "\e77e";
+}
+.#{$prefix}-dribbble:before {
+	content: "\e77f";
+}
+.#{$prefix}-dribbble2:before {
+	content: "\e780";
+}
+.#{$prefix}-dribbble3:before {
+	content: "\e781";
+}
+.#{$prefix}-forrst:before {
+	content: "\e782";
+}
+.#{$prefix}-forrst2:before {
+	content: "\e783";
+}
+.#{$prefix}-deviantart:before {
+	content: "\e784";
+}
+.#{$prefix}-deviantart2:before {
+	content: "\e785";
+}
+.#{$prefix}-steam:before {
+	content: "\e786";
+}
+.#{$prefix}-steam2:before {
+	content: "\e787";
+}
+.#{$prefix}-github:before {
+	content: "\e788";
+}
+.#{$prefix}-github2:before {
+	content: "\e789";
+}
+.#{$prefix}-github3:before {
+	content: "\e78a";
+}
+.#{$prefix}-github4:before {
+	content: "\e78b";
+}
+.#{$prefix}-github5:before {
+	content: "\e78c";
+}
+.#{$prefix}-wordpress:before {
+	content: "\e78d";
+}
+.#{$prefix}-wordpress2:before {
+	content: "\e78e";
+}
+.#{$prefix}-joomla:before {
+	content: "\e78f";
+}
+.#{$prefix}-blogger:before {
+	content: "\e790";
+}
+.#{$prefix}-blogger2:before {
+	content: "\e791";
+}
+.#{$prefix}-tumblr:before {
+	content: "\e792";
+}
+.#{$prefix}-tumblr2:before {
+	content: "\e793";
+}
+.#{$prefix}-yahoo:before {
+	content: "\e794";
+}
+.#{$prefix}-tux:before {
+	content: "\e795";
+}
+.#{$prefix}-apple:before {
+	content: "\e796";
+}
+.#{$prefix}-finder:before {
+	content: "\e797";
+}
+.#{$prefix}-android:before {
+	content: "\e798";
+}
+.#{$prefix}-windows:before {
+	content: "\e799";
+}
+.#{$prefix}-windows8:before {
+	content: "\e79a";
+}
+.#{$prefix}-soundcloud:before {
+	content: "\e79b";
+}
+.#{$prefix}-soundcloud2:before {
+	content: "\e79c";
+}
+.#{$prefix}-skype:before {
+	content: "\e79d";
+}
+.#{$prefix}-reddit:before {
+	content: "\e79e";
+}
+.#{$prefix}-linkedin:before {
+	content: "\e79f";
+}
+.#{$prefix}-lastfm:before {
+	content: "\e7a0";
+}
+.#{$prefix}-lastfm2:before {
+	content: "\e7a1";
+}
+.#{$prefix}-delicious:before {
+	content: "\e7a2";
+}
+.#{$prefix}-stumbleupon:before {
+	content: "\e7a3";
+}
+.#{$prefix}-stumbleupon2:before {
+	content: "\e7a4";
+}
+.#{$prefix}-stackoverflow:before {
+	content: "\e7a5";
+}
+.#{$prefix}-pinterest:before {
+	content: "\e7a6";
+}
+.#{$prefix}-pinterest2:before {
+	content: "\e7a7";
+}
+.#{$prefix}-xing:before {
+	content: "\e7a8";
+}
+.#{$prefix}-xing2:before {
+	content: "\e7a9";
+}
+.#{$prefix}-flattr:before {
+	content: "\e7aa";
+}
+.#{$prefix}-foursquare:before {
+	content: "\e7ab";
+}
+.#{$prefix}-foursquare2:before {
+	content: "\e7ac";
+}
+.#{$prefix}-paypal:before {
+	content: "\e7ad";
+}
+.#{$prefix}-paypal2:before {
+	content: "\e7ae";
+}
+.#{$prefix}-paypal3:before {
+	content: "\e7af";
+}
+.#{$prefix}-yelp:before {
+	content: "\e7b0";
+}
+.#{$prefix}-libreoffice:before {
+	content: "\e7b1";
+}
+.#{$prefix}-file-pdf:before {
+	content: "\e7b2";
+}
+.#{$prefix}-file-openoffice:before {
+	content: "\e7b3";
+}
+.#{$prefix}-file-word:before {
+	content: "\e7b4";
+}
+.#{$prefix}-file-excel:before {
+	content: "\e7b5";
+}
+.#{$prefix}-file-zip:before {
+	content: "\e7b6";
+}
+.#{$prefix}-file-powerpoint:before {
+	content: "\e7b7";
+}
+.#{$prefix}-file-xml:before {
+	content: "\e7b8";
+}
+.#{$prefix}-file-css:before {
+	content: "\e7b9";
+}
+.#{$prefix}-html5:before {
+	content: "\e7ba";
+}
+.#{$prefix}-html52:before {
+	content: "\e7bb";
+}
+.#{$prefix}-css3:before {
+	content: "\e7bc";
+}
+.#{$prefix}-chrome:before {
+	content: "\e7bd";
+}
+.#{$prefix}-firefox:before {
+	content: "\e7be";
+}
+.#{$prefix}-IE:before {
+	content: "\e7bf";
+}
+.#{$prefix}-opera:before {
+	content: "\e7c0";
+}
+.#{$prefix}-safari:before {
+	content: "\e7c1";
+}

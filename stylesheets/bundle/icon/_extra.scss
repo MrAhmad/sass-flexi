@@ -1,0 +1,37 @@
+/* Icon Link
+=================*/
+.linkbutton{
+	background-color: $linkbutton-background-color;
+	color: $linkbutton-color;
+	@include radius(100%);
+	
+}
+.linkbutton:hover{
+	background-color: darken($linkbutton-background-color, 5%);
+}
+
+/* Icon Flipping
+=================*/
+ 
+ .flipped-h {
+  @include scale(-1,1);
+}
+.flipped-v {
+  @include scale(1,-1);
+}
+
+
+/* Icon Rotating
+=================*/
+ 
+.rotated-right {
+ @include rotate(90deg);
+}
+ 
+.rotated-down {
+  @include rotate(180deg);
+}
+ 
+.rotated-left {
+  @include rotate(-90deg);
+}
