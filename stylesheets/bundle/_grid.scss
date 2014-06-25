@@ -107,7 +107,7 @@ $total-columns : 12 !default;
 @mixin offset($property:offset,$total-columns:12){
 	@for $i from 1 through $total-columns{
 		.#{$property}-#{$i}{
-			margin-right: ((100/$total-columns)*$i) *1%;
+			margin-left: ((100/$total-columns)*$i) *1%;
 		}
 	}
 }
