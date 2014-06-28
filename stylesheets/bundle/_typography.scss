@@ -2,7 +2,7 @@
 // created by : MrAhmad
 // date : 10 June 2014
 // website : http://sass-flexi.com/
-// version : 0.1.alpha.1
+// version : 1.0.3
 //============================
 
 //============================
@@ -13,12 +13,12 @@
 // 1- Modular scale for (tablet,desktop, and large media)
 // 2:3 perfect fifth
 // 16px @ 1:1.5	ideal text size
-// 95px @ 1:1.5	important number - choosen from column width
+// 95px @ 1:1.5	important number - chosen from column width
 //---------------------------------------------------
 $scale-ratio : 1.5 !default;
 $font-size   : 16 !default;
 
-// calculate the headingline elements
+// calculate the heading elements
 $h1 : $font-size * 3.375;
 $h2 : $font-size * 2.25 ;
 $h3 : $font-size * 1.5  ;
@@ -30,13 +30,13 @@ $h6 : $font-size / 2.25 ;
 // 2- Modular scale for mobile media
 // 2:3 perfect fifth
 // 13px @ 1:1.5	ideal text size
-// 480px @ 1:1.5	important number - choosen from column width
+// 480px @ 1:1.5	important number - chosen from column width
 //---------------------------------------------------
 $scale-ratio  : 1.5 !default;
 $font-size-mob: 13 !default;
 
 
-// calculate the headingline elements
+// calculate the heading elements
 $h1-mob : $font-size-mob * 2.25;
 $h2-mob : $font-size-mob * 1.5 ;
 $h3-mob : $font-size-mob * 1.25 ;
@@ -53,6 +53,8 @@ $head-color : darken($text-color, 20%) !default;
 // font-family 
 $sans-serif : "Helvetica Neue",Helvetica, Arial, sans-serif !default;
 $serif :  Georgia, Times, "Times New Roman", serif !default;
+$body-font : $sans-serif;
+$heading-font : $serif;
 
 
 // 3- Functions
@@ -78,7 +80,7 @@ $serif :  Georgia, Times, "Times New Roman", serif !default;
 // 4- placeholders
 //---------------------------------------------------
 %head-family{
-    font-family: $sans-serif;
+    font-family: $heading-font;
     color: $head-color;
     text-transform :capitalize;
     text-shadow: 0 1px 1px rgba(255,255,255,0.6);
@@ -101,7 +103,7 @@ $serif :  Georgia, Times, "Times New Roman", serif !default;
 }
 
 // body and headline font size and font-family
-@mixin body-headline($font-size,$base:16){
+@mixin body-heading($font-size,$base:16){
     body{
         font-family: $sans-serif;
         font-size: px($font-size);
@@ -275,4 +277,8 @@ $serif :  Georgia, Times, "Times New Roman", serif !default;
     -webkit-border-radius:  px($raduis);
     -moz-border-radius: px($raduis);
     border-radius: px($raduis);
+}
+
+@mixin text($value) {
+    text-align: $value;
 }

@@ -3,6 +3,12 @@
 
 @import "sass-flexi";
 
+
+//=============================
+// normalize
+//=============================
+@include normalize();
+
 //=============================
 // flexi-grid framework
 //=============================
@@ -27,14 +33,14 @@
 	@extend %clear;
 }
 
-// generate the columns for the grid systen
+// generate the columns for the grid system
 @include columns(col,12);
 
 
 // Generate the viewports
 //-----------------------
 
-// 1- tablet viewport (width 768px)
+// 1- tablet view-port (width 768px)
 @media screen and (min-width:768px){
 	%float{
 		float: left;
@@ -47,7 +53,7 @@
 @include direction(col,12);
 
 
-// 2- desktop viewport (width 992px)
+// 2- desktop view-port (width 992px)
 @media screen and (min-width:992px){
 	%float{
 		float: left;
@@ -60,7 +66,7 @@
 @include direction(col,12);
 
 
-// 3- large viewport (width 1200px)
+// 3- large view-port (width 1200px)
 @media screen and (min-width:1200px){
 	%float{
 		float: left;
@@ -77,15 +83,15 @@
 // flexi-typography framework
 //======================================
 
-html{
+html {
     @include html(16,10);
 }
 
 // body and headline font-size and font-family
-@include body-headline(16,10);
+@include body-heading(16,10);
 
 //  link elements
-a{
+a {
     @include link(#C02942); // define the color for the link elements, you can change the color number is you wish
 }
 
@@ -157,10 +163,18 @@ small, .small{font-size: 80%;}
   }
 
 
-// modifers
-.text-left{text-align: left;}
-.text-right{text-align: right;}
-.text-center{text-align: center;}
-.text-justify{text-align: justify;}
+// modifiers
+.text-left{
+    @include text(left);
+}
+.text-right{
+    @include text(right);
+}
+.text-center{
+    @include text(center);
+}
+.text-justify{
+   @include text(justify);
+}
 //===== end flexi-typography framework =======
 
