@@ -43,13 +43,18 @@ After tying the above command in the terminal, compass will create your project 
 The structure of your projects will be like this :
 
 1.Stylesheets folder including (screen.css)
+
 2.sass folder including flexi tools:
-⋅⋅*bundle/normalize
-⋅⋅*bundle/grid
-⋅⋅*bundle/typo
-⋅⋅*bundle/icon
+
+  * bundle/normalize
+  *bundle/grid
+  *bundle/typo
+  *bundle/icon
+
 3.main scss file (screen.scss)
+
 4.Index file showing example how to code
+
 5.config.rb , the config file
 
 Also, if you don't want to create your project using sass-flexi, you can used as optional in your project, and choose what you like form the bundle.
@@ -59,10 +64,11 @@ Also, if you don't want to create your project using sass-flexi, you can used as
 compass create your-project
 ```
 
-```scss
+```ruby
 // after that open your config.rb, and add this 
 require 'sass-flexi'
-
+```
+```scss
 // then open your scss file and add this 
 @import 'sass-flexi'
 ```
