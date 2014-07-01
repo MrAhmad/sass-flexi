@@ -46,9 +46,12 @@ The structure of your projects will be like this :
 
 2.sass folder including flexi tools:
 
-  * bundle/normalize
+  *bundle/normalize
+  
   *bundle/grid
+
   *bundle/typo
+  
   *bundle/icon
 
 3.main scss file (screen.scss)
@@ -65,7 +68,7 @@ compass create your-project
 ```
 
 ```ruby
-// after that open your config.rb, and add this 
+# after that open your config.rb, and add this 
 require 'sass-flexi'
 ```
 ```scss
