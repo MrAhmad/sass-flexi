@@ -33,3 +33,36 @@ gem install sass-flexi --pre
 # for Mac user's
 sudo gem install sass-flexi --pre
 ```
+Now sass-flexi ready and installed in your system. To start your new project with sass-flexi, we will use compass as follow:
+```bash
+# open your terminal and type this command
+compass create your-project -r sass-flexi --using sass-flexi
+```
+After tying the above command in the terminal, compass will create your project folder with sass-flexi tools, include the followings: Flexi-Grids, Flexi-Typo, and Flexi-icon
+
+The structure of your projects will be like this :
+
+1.Stylesheets folder including (screen.css)
+2.sass folder including flexi tools:
+⋅⋅*bundle/normalize
+⋅⋅*bundle/grid
+⋅⋅*bundle/typo
+⋅⋅*bundle/icon
+3.main scss file (screen.scss)
+4.Index file showing example how to code
+5.config.rb , the config file
+
+Also, if you don't want to create your project using sass-flexi, you can used as optional in your project, and choose what you like form the bundle.
+
+```bash
+# create empty project by using this command
+compass create your-project
+```
+
+```scss
+// after that open your config.rb, and add this 
+require 'sass-flexi'
+
+// then open your scss file and add this 
+@import 'sass-flexi'
+```
