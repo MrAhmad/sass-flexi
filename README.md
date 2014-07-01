@@ -75,3 +75,6 @@ require 'sass-flexi'
 // then open your scss file and add this 
 @import 'sass-flexi'
 ```
+============================================================================================
+
+for more inforamtion please visit [Sass-flexi](http://sass-flexi.com/)
