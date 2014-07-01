@@ -22,7 +22,7 @@ After finishing from download the above in your system, you can start install sa
 
 Sass flexi, designed to be Compass extension, and to be called from it's library, but before that we have to do the following:
 
-'''
+```bash
 // install sass flexi in your system
 
 // for windows user's
@@ -30,4 +30,4 @@ gem install sass-flexi --pre
 
 // for Mac user's
 sudo gem install sass-flexi --pre
-'''
+```
