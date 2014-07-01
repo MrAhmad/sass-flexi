@@ -19,6 +19,7 @@ Before proceeding, you have to install the followings in your system :
 [RubyGems is a package management framework for Ruby.](https://rubygems.org/pages/download)
 
 After finishing from download the above in your system, you can start install sass-flexi and used in your project.
+==========
 
 ### Installation
 
