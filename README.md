@@ -13,7 +13,9 @@ Sass is superset of CSS that adds in amazing features such as variables,nested s
 Before proceeding, you have to install the followings in your system :
 
 [Sass: Syntactically Awesome Style Sheets](http://sass-lang.com/)
+
 [Compass is an open-source CSS Authoring Framework.](http://compass-style.org/)
+
 [RubyGems is a package management framework for Ruby.](https://rubygems.org/pages/download)
 
 After finishing from download the above in your system, you can start install sass-flexi and used in your project.
@@ -23,11 +25,11 @@ After finishing from download the above in your system, you can start install sa
 Sass flexi, designed to be Compass extension, and to be called from it's library, but before that we have to do the following:
 
 ```bash
-// install sass flexi in your system
+# install sass flexi in your system
 
-// for windows user's
+# for windows user's
 gem install sass-flexi --pre
 
-// for Mac user's
+# for Mac user's
 sudo gem install sass-flexi --pre
 ```
